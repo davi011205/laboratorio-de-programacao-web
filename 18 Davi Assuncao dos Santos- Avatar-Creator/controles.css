@@ -1,0 +1,23 @@
+
+#baixar {
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+#baixar > img {
+  height: 0.75em;
+}
+
+#secao-controles label, option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25em;
+}
+
+.marcar {
+  display: flex;
+  float: left;
+  background-color:red;
+}
