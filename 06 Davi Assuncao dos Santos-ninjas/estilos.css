@@ -1,0 +1,71 @@
+#logomarca{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe,img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2{
+    color: blueviolet ;
+    font-family: 'sans-serif', '-apple-system';
+}
+a:link {
+    color: blue;
+}
+a:hover {
+    color: rgb(255, 0, 225);
+}
+a:active { 
+    color: rgb(61, 235, 17);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 0, 13);
+}
+a {
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.nota{
+    opacity: 0.5;
+    background-color: rgba(0, 255, 255, 0.3);
+}
+.nota strong{
+    color:crimson;
+}
+.passo strong{
+    font-size: 24px;
+    color: rgba(128, 0, 128, 1);
+    background-color: rgba(128, 0, 128, 0.4);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.passo em{
+    font-size: 24px;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 0, 0, 0.09);
+    font-family: 'Arial Narrow', 'Arial';
+}
+p:nth-child(2n){
+    text-align: right;
+}
+p:nth-child(2n+1){
+    text-align: left;
+}
+strong{
+    color: purple;
+}
+p{
+    text-align: justify;
+}
+
