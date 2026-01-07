@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pirata e tesouro</title> 
+    <link rel="icon" href="calice.ico" type="image.png">
+    <style> h1{color: gold;
+               text-shadow: 2px 2px black;
+               margin-top: 0;
+            }
+            body{background-image: url(imgs/fundo-da-ilha-pirata.jpg);
+                background-size: cover;
+                text-align: center;
+                margin: 0% 25% 0% 25%;
+                background-position: left bottom;
+            } 
+            table{margin-left: auto;
+                  margin-right: auto;
+            }
+            table{
+                  border-top: 1px solid black;
+                  border-bottom: 1px solid black;
+                  border-collapse: collapse;
+            }
+            table{
+                  background-color: white;
+                  border: 1px solid black;
+            }   
+            caption, p { 
+                  background-color: rgba(255, 255, 255, .7);       
+            }
+            caption{
+                font-size: 75%;
+            } 
+            td, th {
+                padding: 3px 10px 3px 10px;        
+            }
+            tfoot{
+                border: 1px solid black;
+                background-color: lightsteelblue;
+            }
+            thead{
+                border: 1px;
+                border-style: solid;
+                background-color: lightgreen;
+            }
+            html, body{min-height: 100%;
+            }
+    </style>
+</head>
+<body>
+    <h1>Gerenciador de Tesouros</h1>
+    <table>
+        <caption>Estes são os tesouros acumulados do Barba-Ruiva em suas aventuras</caption>
+        <thead> 
+            <tr>
+                <th>Tesouro</th>
+                <th>Nome</th>
+                <th>Valor unitário</th>
+                <th>Quantidade</th>
+                <th>Valor total</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="imgs/moedas.png"></td>
+                <td>Moedas de ouro</td>
+                <td>10</td>
+                <td>835</td>
+                <td>8.350</td>
+            </tr>
+            <tr>
+                <td><img src="imgs/coroa.png"></td>
+                <td>Coroas</td>
+                <td>210</td>
+                <td>4</td>
+                <td>840</td>
+            </tr>
+            <tr>
+                <td><img src="imgs/calice.png"></td>
+                <td>Cálices de ouro</td>
+                <td>4.500</td>
+                <td>1</td>
+                <td>4.500</td>
+            </tr>
+            <tr>
+                <td><img src="imgs/rum.png"></td>
+                <td>Barris de rum</td>
+                <td>não tem preço</td>
+                <td>7</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td> 
+                <td>13.690</td>            
+            </tr>
+        </tfoot>
+    </table>
+    <p>Harr, marujo! Aqui é o temido Barba-Ruiva e você deve me ajudar 
+        a contabilizar os espólios das minhas aventuras!</p>
+</body>
+</html>
